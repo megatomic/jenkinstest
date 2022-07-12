@@ -1,0 +1,26 @@
+{
+  "name": "jenkinstest",
+  "version": "1.0.0",
+  "description": "jenkins test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megatomic/jenkinstest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megatomic/jenkinstest/issues"
+  },
+  "homepage": "https://github.com/megatomic/jenkinstest#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.4"
+  }
+}
