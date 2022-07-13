@@ -1,0 +1,6 @@
+#!/bin/sh
+ssh ubuntu@13.124.182.147 <<EOF
+  cd ~/jenkinstest
+  git pull origin main
+  pm2 restart ./app.js
+EOF
